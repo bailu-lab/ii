@@ -27,7 +27,7 @@ This repository provides a complete computational workflow for constructing **pi
 
 The workflow consists of two major components:
 
-1. **nnU-Net–based automated pituitary segmentation** from 3D T1-weighted MRI to extract volumes for whole pituitary and subregions (anterior lobe, posterior lobe, pituitary stalk).  
+1. **nnU-Net–based automated pituitary segmentation** from 3D T1-weighted MRI to extract volumes for whole pituitary and subregions (anterior pituitary, posterior pituitary, pituitary stalk).  
 2. **GAMLSS-based lifespan normative modeling** for estimating centile trajectories and deriving deviation scores used for disease association analyses and prognostic modeling.
 
 The repository enables reproducible normative modeling pipelines supporting:
