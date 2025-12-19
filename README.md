@@ -33,7 +33,7 @@ The workflow consists of two major components:
 The repository enables reproducible normative modeling pipelines supporting:
 
 - disease classification vs. matched controls  
-- cognitive and clinical association analyses  
+- cognitive association analyses  
 - longitudinal prognosis and survival modeling  
 
 Example datasets, scripts, and model interfaces are provided for demonstration and benchmarking.  
