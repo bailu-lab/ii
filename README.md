@@ -53,8 +53,7 @@ Full multi-center datasets underlying published work cannot be publicly distribu
 
 ### 3.1 nnU-Net automated pituitary segmentation  <a name="Segmentation"></a>
 
-This repository includes code for nnU-Net–based automated segmentation of pituitary subregions from 3D T1-weighted MRI.
-
+Due to file size limitations, the relevant model code has been uploaded to cloud storage and can be downloaded via the link below：https://www.jianguoyun.com/p/DQAKeokQpKn3DRimnpcGIAA
 The segmentation pipeline:
 
 - adopts 3D nnU-Net architecture  
