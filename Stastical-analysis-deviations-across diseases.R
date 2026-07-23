@@ -314,9 +314,7 @@ for(RDSfile_loop in RDSfile_all)
     tem_data1$Diagnosis<-factor(tem_data1$Diagnosis,levels=c(i1,i2))
     
     tem_data1<-na.omit(tem_data1)
-    #match.it <- matchit(Diagnosis ~ Age + Sex + Site_ZZZ, data = tem_data1, method="nearest", ratio=1)
-    #match.it <- matchit(Diagnosis ~ Age + Sex, data = tem_data1, method="nearest", ratio=1)
-    match.it <- matchit(Diagnosis ~ Sex+Site_ZZZ, data = tem_data1, method="nearest", ratio=1)
+    match.it <- matchit(Diagnosis ~ Age + Sex + Site_ZZZ, data = tem_data1, method="nearest", ratio=1)
     #a <- summary(match.it)
     tem_data1<-tem_data1[c(rownames(match.it$match.matrix),match.it$match.matrix),]
     
